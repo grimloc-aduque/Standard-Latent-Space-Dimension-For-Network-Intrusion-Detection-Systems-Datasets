@@ -1,0 +1,6 @@
+datasets/ filter=lfs diff=lfs merge=lfs -text
+datasets/0_CIC-IDS-2017.csv filter=lfs diff=lfs merge=lfs -text
+datasets/1_UNSW-NB15.csv filter=lfs diff=lfs merge=lfs -text
+datasets/2_NF-UNSW-NB15-v2.csv filter=lfs diff=lfs merge=lfs -text
+datasets/3_CSE-CIC-IDS2018.csv filter=lfs diff=lfs merge=lfs -text
+datasets/4_NSL-KDD.csv filter=lfs diff=lfs merge=lfs -text
