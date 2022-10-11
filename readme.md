@@ -12,11 +12,13 @@
 ## Full datasets
 * datasets folder contains the full dataset with all its features and labels
 * datasets_clean folder contains proprocessed datasets, splitted into features (X), binary labels (Y), and multiclass labels (Ym)
+<!--  -->
 Run f01_preprocess_datasets.py to generate the datasets_clean files
 
 ## Small datasets
 * small_datasets contains files with the first 2000 rows of every dataset
 * small_datasets_clean contains the proprocessed small_datasets
+<!--  -->
 small datasets were used for rapid prototyping purposes only
 
 # Python Scripts
