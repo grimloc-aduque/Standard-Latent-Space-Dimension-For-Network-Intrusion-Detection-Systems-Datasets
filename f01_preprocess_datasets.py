@@ -1,3 +1,5 @@
+import os
+import shutil
 import pandas as pd
 import numpy as np
 import multiprocessing
@@ -9,11 +11,18 @@ _input_folder = 'datasets'
 _output_folder = 'datasets_clean'
 
 def _main():
+    _build_folder_structure()
     dataset_nums = [0,1,2,3,4]
     pool = multiprocessing.Pool(processes=5)
     pool.map(_clean_and_save_dataset, dataset_nums)
 
 # Procesamiento completo del dataset
+
+def _build_folder_structure():
+    shutil.rmtree(_output_folder)
+    os.makedirs(_output_folder)
+    for dataset in datasets:
+        os.makedirs(f'./{_output_folder}/{dataset}')
 
 def _clean_and_save_dataset(datasetNum):
     dataset = datasets[datasetNum]
