@@ -4,7 +4,7 @@ import multiprocessing
 
 import pandas as pd
 import numpy as np
-from tensorflow import keras
+import keras
 
 from f01_preprocess_datasets import datasets
 
