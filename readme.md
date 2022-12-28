@@ -25,8 +25,18 @@ small datasets were used for rapid prototyping purposes only
 * f01_preprocess_datasets.py script preprocesses the datasets
 * f02_encoded_classification.py script generates the autoencoders losses employed to determine the optimum dimension for Latent Space
 * f03_encoded_classification script generates the comparison results of original vs latent space variations of each classification model in each dataset
+* f04_encoded_datasets script produces a CSV with the dimensionality reduced datasets of dimension 10
 
 # Jupyter Notebooks
 * nb01_datasets_exploration.ipynb presents an exploration of features and categories of every dataset
 * nb02_autoencoder_loss_analysis.ipynb analizes the loss of the autoencoders and searches for the optimum LS dimension
 * nb03_feature_selection.ipynb summarizes the results of the original vs LS comparison and calculate the Q-value for the Wilcoxon Test
+
+# Docker
+The python scripts were run inside a docker container within the infraestructure (DGX) of USFQ university
+* dockerfile contains the instructions to build the docker image
+* requirements.txt includes the python requierements of the project
+
+# Latent Space
+The folder X_encoded contains the dimensionality reduced datasets of dimension 10
+
