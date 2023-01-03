@@ -38,5 +38,5 @@ The python scripts were run inside a docker container within the infraestructure
 * requirements.txt includes the python requierements of the project
 
 # Latent Space
-The folder X_encoded contains the dimensionality reduced datasets of dimension 10
+The X_encoded folder contains the dimensionality reduced datasets of dimension 10
 
