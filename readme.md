@@ -39,4 +39,3 @@ The python scripts were run inside a docker container within the infraestructure
 
 # Latent Space
 The X_encoded folder contains the dimensionality reduced datasets of dimension 10
-
