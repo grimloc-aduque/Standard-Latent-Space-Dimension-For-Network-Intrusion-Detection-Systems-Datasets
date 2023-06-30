@@ -30,14 +30,14 @@ small datasets were used for rapid prototyping purposes only
 * [f04_encoded_datasets.py](./f04_encoded_datasets.py) produces a CSV with the dimensionality reduced datasets of dimension 10
 
 # Jupyter Notebooks
-* nb01_datasets_exploration.ipynb presents an exploration of features and categories of every dataset
-* nb02_autoencoder_loss_analysis.ipynb analizes the loss of the autoencoders and searches for the optimum LS dimension
-* nb03_feature_selection.ipynb summarizes the results of the original vs LS comparison and calculate the Q-value for the Wilcoxon Test
+* [nb01_datasets_exploration.ipynb](./nb01_datasets_exploration.ipynb) presents an exploration of features and categories of every dataset
+* [nb02_autoencoder_loss_analysis.ipynb](./nb02_autoencoder_loss_analysis.ipynb) analizes the loss of the autoencoders and searches for the optimum LS dimension
+* [nb03_feature_selection.ipynb](./nb03_feature_selection.ipynb) summarizes the results of the original vs LS comparison and calculate the Q-value for the Wilcoxon Test
 
 # Docker
 The python scripts were run inside a docker container within the infraestructure (DGX) of USFQ university
-* dockerfile contains the instructions to build the docker image
-* requirements.txt includes the python requierements of the project
+* [dockerfile](./dockerfile) contains the instructions to build the docker image
+* [requirements.txt](./requirements.txt) includes the python requierements
 
 # Latent Space
 The X_encoded folder contains the dimensionality reduced datasets of dimension 10
