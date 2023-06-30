@@ -1,5 +1,7 @@
 # Autoencoder-based Standard Latent Space for Intrusion Detection Systems Datasets Analytics
 
+Published Paper at: https://ieeexplore.ieee.org/document/10145438
+
 # Raw Datasets
 * CIC-IDS2017: https://www.unb.ca/cic/datasets/ids-2017.html
 * UNSW-NB15: https://research.unsw.edu.au/projects/unsw-nb15-dataset
