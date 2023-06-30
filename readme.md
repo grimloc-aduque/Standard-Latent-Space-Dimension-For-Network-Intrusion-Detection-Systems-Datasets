@@ -27,7 +27,7 @@ small datasets were used for rapid prototyping purposes only
 * [f01_preprocess_datasets.py](./f01_preprocess_datasets.py) preprocesses the datasets
 * [f02_encoded_classification.py](./f02_encoded_classification.py) generates the autoencoders losses employed to determine the optimum dimension for Latent Space
 * [f03_encoded_classification.py](./f03_encoded_classification.py) generates the comparison results of original vs latent space variations of each classification model in each dataset
-* [f04_encoded_datasets.py](./f04_encoded_datasets.py) script produces a CSV with the dimensionality reduced datasets of dimension 10
+* [f04_encoded_datasets.py](./f04_encoded_datasets.py) produces a CSV with the dimensionality reduced datasets of dimension 10
 
 # Jupyter Notebooks
 * nb01_datasets_exploration.ipynb presents an exploration of features and categories of every dataset
