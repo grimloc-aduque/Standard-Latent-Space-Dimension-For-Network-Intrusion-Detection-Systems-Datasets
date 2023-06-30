@@ -12,8 +12,8 @@ Published Paper at: https://ieeexplore.ieee.org/document/10145438
 # Data folders
 
 ## Full datasets
-* datasets folder contains the full dataset with all its features and labels
-* datasets_clean folder contains proprocessed datasets, splitted into features (X), binary labels (Y), and multiclass labels (Ym)
+* **datasets** folder contains the full dataset with all its features and labels
+* **datasets_clean** folder contains proprocessed datasets, splitted into features (X), binary labels (Y), and multiclass labels (Ym)
 <!--  -->
 To generate the clean dataset files run:
 ```
@@ -21,8 +21,8 @@ python f01_preprocess_datasets.py
 ```
 
 ## Small datasets
-* small_datasets contains files with the first 2000 rows of every dataset
-* small_datasets_clean contains the proprocessed small_datasets
+* **small_datasets** contains files with the first 2000 rows of every dataset
+* **small_datasets_clean** contains the proprocessed small_datasets
 <!--  -->
 small datasets were used for rapid prototyping purposes only
 
@@ -43,4 +43,4 @@ The python scripts were run inside a docker container within the infraestructure
 * [requirements.txt](./requirements.txt) includes the python requierements
 
 # Latent Space
-The X_encoded folder contains the dimensionality reduced datasets of dimension 10
+The **X_encoded** folder contains the dimensionality reduced datasets of dimension 10
